@@ -27,3 +27,47 @@
         url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
         url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
 }
+
+body {
+    background-color: #5B2386;
+    ;
+}
+
+.container {
+    width: 765px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.main-logo {
+    display: inline-block;
+    width: 564px;
+    background-image: url(/img/clock.png);
+    background-repeat: no-repeat;
+    margin-top: 74px;
+}
+
+.tit-timelaw {
+    width: 564px;
+    height: 265px;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(/img/clock.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-txt {
+    margin-top: 46px;
+    margin-bottom: 78px;
+}
+
+.txt-desc {
+    margin-bottom: 102px;
+}
+
+.cont-inp {
+    margin-bottom: 115px;
+}
