@@ -46,7 +46,7 @@ body {
 .main-logo {
     display: inline-block;
     width: 564px;
-    background-image: url(/img/clock.png);
+    background-image: url(../img/clock.png);
     background-repeat: no-repeat;
     margin-top: 74px;
 }
@@ -56,7 +56,7 @@ body {
     height: 265px;
     text-align: center;
     margin: 0 auto;
-    background-image: url(/img/clock.png);
+    background-image: url(../img/clock.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -72,7 +72,7 @@ body {
     height: 85px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(/img/quotes.png);
+    background-image: url(../img/quotes.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: contain;
@@ -89,6 +89,7 @@ footer {
     font-size: 12px;
     line-height: 17px;
     font-weight: 400;
+
 
 }
 
@@ -115,6 +116,7 @@ input {
     font-weight: 400;
     width: 228px;
     height: 57px;
+    font-family: 'GmarketSansMedium';
 }
 
 .txt-wannabe {
@@ -132,6 +134,7 @@ input {
     width: 565px;
     height: 66px;
     font-weight: 700;
+    font-family: 'GmarketSansBold';
 
 
 
@@ -148,19 +151,22 @@ input {
 .click-containter {
 
     position: relative;
+
 }
 
 .cont-result {
     margin-top: 147px;
     margin-bottom: 130px;
     font-size: 24px;
+    font-weight: 400;
 }
 
 .cont-result>p>strong {
     font-size: 72px;
+    font-family: 'GmarketSansBold';
 }
 
-.blind {
+h2 {
     visibility: hidden;
 }
 
@@ -176,6 +182,7 @@ input {
     width: 356px;
     height: 66px;
     font-weight: 700;
+    font-family: 'GmarketSansBold';
 
 }
 
@@ -190,6 +197,7 @@ input {
     width: 191px;
     height: 66px;
     font-weight: 700;
+    font-family: 'GmarketSansBold';
 }
 
 
@@ -205,4 +213,40 @@ input {
 .txt-desc>span {
     margin-top: 10px;
     display: inline-block
+}
+
+
+section.cont-modal {
+    width: 800px;
+    height: 800px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.modal-cheerup {
+    display: block;
+    margin: 0 auto;
+    margin-top: 76px;
+    margin-bottom: 4px;
+}
+
+.modal-txt {
+    display: inline-block;
+}
+
+.licat {
+    display: block;
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 74px;
+}
+
+#modal-btn {
+    width: 508px;
+    font-weight: 700;
+    font-family: 'GmarketSansBold';
+
 }
